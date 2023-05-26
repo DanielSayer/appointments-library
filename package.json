@@ -1,0 +1,29 @@
+{
+  "name": "@danielsayer/appointments-library",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/DanielSayer/appointments-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielSayer/appointments-library/issues"
+  },
+  "homepage": "https://github.com/DanielSayer/appointments-library#readme",
+  "peerDependencies": {
+    "react": ">=16.12.0",
+    "react-dom": ">=16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "typescript": "^5.0.4"
+  }
+}
