@@ -1,3 +1,4 @@
+import { oneOfType } from "prop-types"
 import React, { useRef } from "react"
 import { Input } from "reactstrap"
 
@@ -9,6 +10,7 @@ interface ITimePicker {
   isDisabled?: boolean
   onChange: (timeStr: string) => void
 }
+
 
 const TimePicker = (props: ITimePicker): React.ReactElement => {
   const { id, name, value, isDisabled, onChange } = props
@@ -103,4 +105,5 @@ const TimePicker = (props: ITimePicker): React.ReactElement => {
   )
 }
 
-export default TimePicker
+export { TimePicker };
+export type { ITimePicker };
