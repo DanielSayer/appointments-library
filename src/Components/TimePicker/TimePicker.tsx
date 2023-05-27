@@ -1,4 +1,3 @@
-import { oneOfType } from 'prop-types';
 import React, { useRef } from 'react';
 import { Input } from 'reactstrap';
 
