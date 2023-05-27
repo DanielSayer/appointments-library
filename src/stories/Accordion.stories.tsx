@@ -1,18 +1,18 @@
-import { Meta, StoryObj } from "@storybook/react";
-import { Accordion, IAccordionProps } from "../Components/Accordion/Accordion";
-import React, { useState } from "react";
-import { AccordionBody, AccordionHeader, AccordionItem } from "reactstrap";
+import { Meta, StoryObj } from '@storybook/react';
+import { Accordion } from '../Components/Accordion/Accordion';
+import { useState } from 'react';
+import { AccordionBody, AccordionHeader, AccordionItem } from 'reactstrap';
 
 /**
  * The Accordion component is a Component built from reactstrap's Accordion and uses the same children elements.
  * This element differs as it allows any number of panels to be open at once.
  *
- * The children structure can be seen by clicking on show code below
+ * The child structure can be seen by clicking on show code below
  */
 export default {
-  title: "Components/Accordion",
+  title: 'Components/Accordion',
   component: Accordion,
-  tags: ["autodocs"],
+  tags: ['autodocs'],
 } as Meta;
 
 export const Default = () => {
@@ -58,3 +58,4 @@ export const Default = () => {
     </div>
   );
 };
+Default.storyName = 'Accordion';
