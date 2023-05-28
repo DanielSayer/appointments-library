@@ -7,6 +7,7 @@ interface ITimePicker {
   placeholder?: string | null;
   value: string;
   isDisabled?: boolean;
+  /** Typically used to save the entered time when the user stops using the component */
   onChange: (timeStr: string) => void;
 }
 
