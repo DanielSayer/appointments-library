@@ -1,6 +1,6 @@
 {
   "name": "@danielsayer/appointments-library",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "sideEffects": false,
   "main": "dist/index.cjs.js",
@@ -64,5 +64,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.22.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/danielsayer"
   }
 }
